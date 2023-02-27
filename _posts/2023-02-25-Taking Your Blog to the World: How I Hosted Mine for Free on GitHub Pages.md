@@ -8,13 +8,33 @@ tags: [GitHub Pages, Jekyll, Blogging]
 #image: [Insert an image if you have one that is relevant to the post]
 ---
 
+# How to Host a Jekyll Blog on GitHub Pages
 
-Hey there! In my last post, I talked about how I created my blog using Jekyll and the Chirpy theme. But, as you may know, having a blog is only half the battle - you need to get it out there for people to see. That's where hosting comes in. In this post, I'm going to share my experience hosting my blog on GitHub Pages, a free and powerful hosting platform offered by GitHub. Whether you're a tech-savvy developer or just starting out with your very first blog, this post is packed with step-by-step instructions, screenshots, and helpful tips to guide you through the process. So, sit tight and get ready to learn how to publish your blog for the world to see, without any server management or infrastructure costs. Let's get started!
+## Introduction
+Congratulations on publishing your first blog post! In your previous post, you shared your experience of creating a Jekyll blog using the Chirpy theme. Now, you want to take the next step and host your blog on GitHub Pages. This post will guide you through the process of hosting your Jekyll blog on GitHub Pages. 
 
 ## What is GitHub Pages?
+GitHub Pages is a free web hosting service provided by GitHub that allows you to publish a website or a blog directly from a GitHub repository. GitHub Pages is an excellent choice for hosting a Jekyll blog because it offers version control, security, and reliability. Moreover, it is easy to set up and customize. 
 
-GitHub Pages is a free web hosting service provided by GitHub, the popular code hosting platform. It allows you to publish a website or blog directly from a GitHub repository, without any server management or infrastructure costs. GitHub Pages is powered by Jekyll, a static site generator that transforms plain text into static websites and blogs.
+## Setting Up GitHub Pages
+Before you can host your Jekyll blog on GitHub Pages, you need to set up a GitHub account if you don't have one already. Once you have created an account, you can create a new repository to host your Jekyll blog. You can either use the default settings or customize the repository's settings to suit your needs. 
 
-GitHub Pages is not only free, but it's also easy to use and comes with a bunch of features that make it an excellent choice for hosting a blog. One of its most significant advantages is that it provides version control with Git, which means you can track changes to your site and collaborate with others more easily. Additionally, GitHub Pages offers custom domain support, HTTPS encryption, and integration with other GitHub services, such as Actions and Projects.
+## Preparing Your Jekyll Blog for GitHub Pages
+To prepare your Jekyll blog for hosting on GitHub Pages, you need to modify the configuration file of your Jekyll blog. The configuration file is where you specify the settings for your Jekyll blog, such as the title, author, and URL. You also need to add a base URL to your Jekyll blog to ensure that all the links work correctly. After modifying the configuration file, you need to commit and push the changes to GitHub.
+## Deploying Your Jekyll Blog on GitHub Pages
+After you have prepared your Jekyll blog for hosting on GitHub Pages, you can deploy it to GitHub Pages. To do so, you need to enable GitHub Pages in the repository settings. You can choose a theme for your Jekyll blog or customize your domain if you want. Finally, you need to push your Jekyll files to GitHub. GitHub Pages will automatically build and publish your Jekyll blog.
 
-Overall, GitHub Pages is a great option for anyone looking to host a blog or a simple website, whether you're an individual blogger, a small business, or a nonprofit organization. In the next section, we'll walk through the process of setting up GitHub Pages for your blog.
+## Troubleshooting Common Issues
+Hosting a Jekyll blog on GitHub Pages can be straightforward, but sometimes issues may arise. Here are some common issues you may encounter and how to fix them:
+
+- **404 errors**: If you encounter a 404 error when trying to access your Jekyll blog on GitHub Pages, check your base URL and make sure it matches the repository name.
+- **Build errors**: If your Jekyll blog fails to build on GitHub Pages, check the build log and fix any errors in your Jekyll code.
+- **CSS and JavaScript issues**: If your Jekyll blog looks different on GitHub Pages than it does on your local machine, check the paths of your CSS and JavaScript files and make sure they are correct.
+
+## Conclusion
+Hosting a Jekyll blog on GitHub Pages is a great way to share your content with the world. By following the steps outlined in this post, you can easily host your Jekyll blog on GitHub Pages. Don't forget to share your experience in the comments and happy blogging!
+
+## References
+- [GitHub Pages](https://pages.github.com/)
+- [Jekyll](https://jekyllrb.com/)
+- [Chirpy Theme](https://github.com/cotes2020/jekyll-theme-chirpy)
